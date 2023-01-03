@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(231, 231, 231) 100%);
+    background-color:#797979 ;
     padding: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -16,36 +16,41 @@ body {
 }
 
 .flex-item-left {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("https://mfiles.alphacoders.com/908/908083.jpg");
-    background-color: rgb(255, 196, 33);
+
+    background-color: rgb(65, 65, 65);
     padding: 40px;
     flex: 30%;
-    border-radius: 10px;
-
+ 
+    border: 5px solid black;
+    border-right: 5px solid rgb(195, 255, 0);
 
 }
 
 .flex-item-left h1 {
     text-align: left;
     font-size: 40px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .flex-item-left p {
     text-align: left;
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 
 }
 
 .flex-item-left ul {
     text-align: left;
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     list-style: none;
-    border-left: 3px solid #fff ;
+    border-left: 3px solid rgb(195, 255, 0) ;
+}
+
+.flex-item-left ul a {
+
+    color: rgb(0, 0, 0);
+
 }
 
 .flex-item-left img {
@@ -55,10 +60,11 @@ body {
 }
 
 .flex-item-right {
-    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(195, 255, 0);
     padding: 40px;
     flex: 70%;
-    border-radius: 10px;
+    border-style: none;
+    border-right: 5px solid rgb(195, 255, 0);
 
 }
 
@@ -87,11 +93,12 @@ body {
 
     text-align: left;
     font-size: 20px;
-    background-color: #fff;
+    background-color:#D3B5FE ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
     padding: 30px;
     padding-left: 30px;
+    border-radius: 15px 50px;
+    
 }
 
 .flex-item-right img {
@@ -106,27 +113,37 @@ body {
 }
 
 .flex-item-html {
-    background-color: rgb(255, 196, 33);
+
+    width: 70%;
+
+    transform: skew(20deg);
+    background: black;
+    border: 5px solid rgb(171, 54, 255);
     padding: 40px;
-    flex: 40%;
-    border-radius: 10px;
-    
+    flex: 40%;  
 
 }
 
 .flex-item-css {
-    background-color: rgb(255, 219, 122);
+
+    width: 70%;
+    transform: skew(20deg);
+    background: black;
+
     padding: 40px;
     flex: 40%;
-    border-radius: 10px;
     
 }
 
 .flex-item-js {
-    background-color: rgb(255, 240, 197);
+
+    width: 10%;
+    transform: skew(20deg);
+    background: black;
+    border: 5px solid rgb(171, 54, 255);
     padding: 40px;
     flex: 20%;
-    border-radius: 10px;
+ 
     
 }
 
@@ -136,7 +153,7 @@ a {
   }
 
   a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 255, 217);
     font-size:x-large;
   }
 
@@ -147,3 +164,7 @@ a {
         flex-direction: column;
     }
 }
+
+
+
+
