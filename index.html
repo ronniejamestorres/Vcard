@@ -8,66 +8,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="build/css/style.css">
     <style>
-        body {
-            background-color: #FEF504;
-        }
-
-        .buttonRed {
-            background-color: #FF003C;
-        }
-
-        .buttonRed:hover {
-            background-color: #00FFD2;
-            color: black;
-            border: solid #00FFD2 1px;
-            border-bottom: solid #FEF504 8px;
-            border-right: solid #FEF504 8px;
-        }
-
-        .black-button {
-            background-color: #000000;
-            color: white;
-            border: solid #00FFD2 1px;
-        }
-
-        .black-button:hover {
-            background-color: #00FFD2;
-            color: black;
-            border: solid #00FFD2 1px;
-            border-bottom: solid #FEF504 8px;
-            border-right: solid #FEF504 8px;
-        }
-
         .img {
-            border: solid #FF003C 1px;
-            border-bottom: solid #FF003C 5px;
-            border-right: solid #FF003C 5px;
+            border: solid #000000 2px;
+            border-bottom: solid #000000 4px;
+            border-right: solid #000000 4px;
         }
 
         .img:hover {
-            border: solid #00FFD2 1px;
+            border: #00FFD2;
             border-bottom: solid #00FFD2 8px;
             border-right: solid #00FFD2 8px;
         }
 
-
-
-        .langColor1 {
-            color: #FF003C;
-        }
-
-        .langColor2 {
-            color: #00FFD2;
-        }
-
-        .langColor3 {
-            color: #FEF504;
-        }
-
-        .textHi {
-            background-color: #000000;
-            color: #00FFD2;
-        }
 
 
 
@@ -87,18 +39,14 @@
             content: "";
             width: 10px;
             height: 20px;
-            background: #00FFD2;
+            background: #000000;
             display: inline-block;
             animation: cursor-blink 1.5s steps(2) infinite;
-        }
-
-        .vCard {
-            color: #00FFD2;
         }
     </style>
 </head>
 
-<body class=" flex items-center justify-center ">
+<body class="bg-purple-400 flex items-center justify-center ">
 
 
 
@@ -111,34 +59,38 @@
 
 
         <!--first square-->
-        <div class=" bg-black      p-3 rounded-tr-3xl rounded-bl-3xl shadow-2xl  ">
+        <div
+            class=" bg-emerald-400 border-b-8 border-r-8  border-black     p-3 rounded-3xl rounded-bl-3xl shadow-2xl border-2  ">
 
 
 
-            <div class="w-full p-4 border-r-2 border-yellow-300 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 ">
+            <div class="w-full p-4  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 ">
                 <div class="     col-span-1 flex items-center justify-center ">
-                    <img src="https://lh3.googleusercontent.com/a/AEdFTp6eJheXTzEp_4I48PkA18qhsP99ARGVQ62u-b-mbw=s288-p-rw-no"
-                        class="img  rounded-tr-3xl rounded-bl-3xl" width="200" height="200">
+                    <img src="img/Screenshot 2023-01-24 at 16.38.23.jpg" class="img  rounded-3xl rounded-bl-3xl"
+                        width="300" height="">
                 </div>
-                <div class="col-span-1 p-5 text-white">
-                    <h1 class="vCard text-4xl flex items-center border-l-2 border-yellow-300 p-4  ">Vcard</h1>
-                    <p class="  flex items-center border-l-8 border-yellow-300 p-4  ">BeCode member</p>
-                    <p class="  flex items-center border-l-2  border-b-2 border-yellow-300 p-4  ">Junior Web developer
+                <div class="col-span-1 p-2 ">
+                    <h1 class="text-black text-2xl flex items-center justify-center pb-2 font-bold">Ronnie James Torres
+                    </h1>
+                    <p class="  flex items-center justify-center  ">BeCode member</p>
+                    <p class="  flex items-center justify-center  ">Junior Web developer
                     </p>
                 </div>
             </div>
 
 
-            <div
-                class="w-full   border-r-8 border-b-2 border-yellow-300   p-4 grid grid-cols-3 md:grid-cols-3 lg:grid-cols-1 gap-4 ">
+            <div class="w-full      p-4 grid grid-cols-3 md:grid-cols-3 lg:grid-cols-1 gap-4 ">
 
-                <button class="buttonRed  text-white p-2 rounded-tr-3xl rounded-bl-3xl">
+                <button
+                    class="bg-yellow-400 border-2 border-black border-b-4  border-r-4 p-2 rounded-xl hover:bg-cyan-400 ">
                     <a href="https://becode.org/fr">BeCode</a>
                 </button>
-                <button class="black-button    p-2 rounded-tr-3xl rounded-bl-3xl">
+                <button
+                    class="bg-yellow-400 border-2 border-black border-b-4  border-r-4 p-2 rounded-xl hover:bg-cyan-400  ">
                     <a href="https://becode.org/fr">CV</a>
                 </button>
-                <button class="black-button    p-2 rounded-tr-3xl rounded-bl-3xl">
+                <button
+                    class="bg-yellow-400 border-2 border-black border-b-4  border-r-4 p-2 rounded-xl hover:bg-cyan-400 ">
                     <a href="https://ronniejamestorres.github.io/devLandingPage/">Portfolio</a>
                 </button>
 
@@ -147,25 +99,42 @@
         </div>
 
         <!--second square-->
-        <div class=" bg-white border-2 border-black rounded-tr-3xl p-3 rounded-bl-3xl shadow-2xl ">
+        <div
+            class=" bg-emerald-400 border-b-8 border-r-8  border-black     p-5 rounded-3xl rounded-bl-3xl shadow-2xl border-2   ">
 
-            <div class="p-3   border-l-2 border-black   ">
-                <h1 class="pb-3 text-2xl md:text-4xl flex items-center justify-center">Ronnie James Torres</h1>
-                <div class="box">
-                    <h2 class="textHi border border-black rounded-tr-3xl rounded-bl-3xl p-3">Hi ! I am a junior web
-                        developer
-                        working and learning
-                        new
-                        skills at
-                        BeCode. I mainly work with HTML,
-                        CSS and also JavaScript.</h2>
-                </div>
+            <div class="grid grid-cols-3 pb-5   border-black    ">
+
+                <h1 class=" col-span-1  text-black text-2xl lg:text-4xl flex items-center pb-4 font-bold">Vcard</h1>
+
+                <button class="col-span-1 p-2 rounded  items-center flex justify-center">
+
+                </button>
+
+                <button class=" col-span-1 p-2 rounded  items-center flex justify-end">
+                    <a href="https://ronniejamestorres.github.io/devLandingPage/">
+                        <img class=" " src="https://cdn-icons-png.flaticon.com/512/1828/1828961.png" width="20"
+                            height="20"> </a>
+                </button>
+
+            </div>
+
+            <div class="box pb-4 ">
+                <h2 class="textHi  rounded-xl p-3 ">Hi ! I am a junior web
+                    developer
+                    working and learning
+                    new
+                    skills at
+                    BeCode. I mainly work with HTML,
+                    CSS and also JavaScript.</h2>
             </div>
 
 
 
-            <div class="border-l-8 border-black   grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-1 p-3 ">
+
+            <div
+                class="bg-yellow-400 border-2 border-black border-b-4 mb-4  border-r-4 rounded-xl   grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4  p-3 ">
                 <div class="     col-span-3 flex items-center  ">
+
                     <img src="https://cdn-icons-png.flaticon.com/512/151/151768.png" width="20" height="20">0484707240
                 </div>
                 <div class="     col-span-3 flex items-center  ">
@@ -187,16 +156,17 @@
             </div>
 
 
-            <div class="bg-black rounded-bl-3xl w-full     p-4 grid grid-cols-3 md:grid-cols-3 lg:grid-cols-1 gap-4 ">
+            <div
+                class="bg-white  border-black border-2 border-b-4 border-r-4 rounded-xl w-full     p-4 grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4  ">
 
-                <button class=" p-2 rounded-full langColor1">
+                <button class="bg-orange-400 col-span-1 p-2 rounded-full langColor1">
                     <a href="https://becode.org/fr">
                         HTML</a>
                 </button>
-                <button class=" p-2 rounded-full langColor2 ">
+                <button class="bg-cyan-300 col-span-1 p-2 rounded-full langColor2 ">
                     <a href="https://becode.org/fr">CSS </a>
                 </button>
-                <button class=" p-2 rounded-full langColor3 ">
+                <button class="bg-yellow-400 col-span-1 p-2 rounded-full langColor3 ">
                     <a href="https://ronniejamestorres.github.io/devLandingPage/">
                         JS </a>
                 </button>
